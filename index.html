@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Battle ships</title>
+	<link href="css\bs.css" rel="stylesheet" >
+	<script type="text/javascript"  src="js\jquery.min.js"></script>
+	<!--[if lte IE 8]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+	<script src="js\bs.js" ></script>
+</head>
+<body>
+	<div id="headerDiv" >
+		Морской бой
+	</div>
+	<div id="loginDiv">
+		<label for="userName">Ваше имя:</label>
+		<input type="text" value="" id="userName" >
+		<button class="startGame" onClick="startGame($('#userName').val());" >Играть</button><br>
+	</div>
+	<div id="outputDiv">
+	</div>
+	<div id="mainDiv">
+		<canvas id="yourField" width="550" height="550"  >You</canvas>
+		<canvas id="oppFeild" width="550" height="550">Opponent</canvas>
+	</div>
+	<div id="footerDiv">
+		&copy; 2015 Fenrir
+	</div>
+
+</body>
+</html>

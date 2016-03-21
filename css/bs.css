@@ -1,0 +1,60 @@
+body {
+	  background-color: #FFEE99;
+	  text-align: center;
+	  font-family: "Trebuchet MS", "Helvetica CY", sans-serif;
+	}
+#headerDiv	{
+		color: #E33B3B;
+		font-size:  24pt;
+		margin: 0 0 10px 0;
+	}
+#loginDiv	{
+		color: #214B52;
+		font-size:  14pt;
+		line-height: 42px;
+	}	
+#loginDiv  input[type="text"] {
+		border: 1px solid #4DDBB8; 
+		padding: 0;
+		border-radius: 5px;
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		-khtml-border-radius: 5px;
+		background: #FFEE99 !important; 
+		outline: none; 
+		height: 42px; 
+		width: 160px; 
+		color: #214B52; 
+		font-size:  14pt;
+	}
+.startGame {
+	background-color:#E33B3B;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #4DDBB8;
+	cursor:pointer;
+	color:#FFEE99;
+	font-size:14pt;
+	height: 44px;
+	width: 84px; 
+	text-decoration:none;
+	}
+.startGame:hover {
+	background-color:#FA472C;
+	}
+.startGame:active {
+	position:relative;
+	top:1px;
+	}
+#outputDiv	{
+        display: none;
+		color: #214B52;
+		font-size:  14pt;
+		line-height: 44px;
+		height: 44px;	
+	}	
+#footerDiv	{
+		margin-top: 10px;
+		color: #214B52;
+	}
